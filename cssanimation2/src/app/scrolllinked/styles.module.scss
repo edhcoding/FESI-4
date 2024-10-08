@@ -1,0 +1,46 @@
+.bar__container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  z-index: 2;
+  justify-content: space-between;
+
+  &__inverted {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    z-index: 2;
+  }
+}
+
+.bar {
+  height: 1vh;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+// .dot {
+//   background-color: orange;
+//   top: 50%;
+//   left: 50%;
+//   transform: translate(-50%, -50%);
+// }
+
+.title {
+  color: rgb(5, 74, 238);
+  font-size: 8vw;
+  font-family: system-ui;
+  font-weight: 700;
+  margin-block: 0.67em;
+  line-height: normal;
+  padding-left: 8vw;
+
+  & > span {
+    display: block;
+    overflow: hidden;
+
+    & > span {
+      display: block;
+    }
+  }
+}
