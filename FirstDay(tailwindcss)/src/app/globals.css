@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.circle {
+  background: linear-gradient(45deg, #096bde 0%, #096bde 30%, #ddf1ff 100%);
+  box-shadow: 0 0 #000, 0.3px 0.8px 1.1px rgba(9, 107, 222, 0.12),
+    1.1px 2.8px 3.9px -0.4px rgba(9, 107, 222, 0.17),
+    2.4px 6.1px 8.6px -0.8px rgba(9, 107, 222, 0.23),
+    5.3px 13.3px 18.8px -1.2px rgba(9, 107, 222, 0.29);
+}
+
+.textt {
+  background: -webkit-linear-gradient(45deg, #15c064 0%,  #00d1ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
