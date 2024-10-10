@@ -1,3 +1,4 @@
+import MyInput from "@/components/MyInput";
 import UpperInput from "@/components/UpperInput";
 
 export const metadata = {
@@ -5,5 +6,10 @@ export const metadata = {
 };
 
 export default function Page() {
-  return <UpperInput />;
+  return (
+    <>
+      <UpperInput />
+      <MyInput />
+    </>
+  );
 }
